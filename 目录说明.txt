@@ -1,0 +1,49 @@
+页面说明
+index 官网首页-商品列表框架 轮播动态图 js等
+find-password 找回密码
+login 用户登录/找回密码界面
+menber_center 会员中心首页-查看个人信息/订单/优惠券-修改密码/头像等
+product_list 商品列表-嵌入首页
+register 用户注册界面 手机验证码登录php
+
+模块说明
+admin后台管理模块(会员中心
+	admin 后台首页
+	admin_member_center 后台会员中心首页-排序所有会员详细信息-带权限 管理接口-增删查改
+	product_manage 	产品管理-增删查改-上下架-价格管理-优惠设置(抢购等)
+
+chat 客服模块-引入第三方或自建
+	chat.html
+
+js 用到的脚本文件
+	chat.js
+	search.js
+	product_list.js 控制商品展示页的效果脚本
+	shopping_car.js  控制购物车(添加动画等)的显示效果
+
+css 样式文件夹
+	product_list.css 控制商品展示页的效果样式
+	shopping_car.css 购物车样式控制
+	chat.css
+	search.css
+
+order 订单模块
+	order_main 订单主界面(未提交)
+	order_detail订单详细页面
+	order_payed(已支付的订单界面-列表)
+
+pay 支付功能模块
+	微信支付
+	支付宝支持
+	货到付款/运费设置模板
+
+search 搜索/推荐模块
+	search.html-bar 输入提示 历史记录 语音输入
+		
+shopping_car 购物车模块
+	shopping_car.html
+	
+	
+前段框架:bootstrap
+
+微信登录接口说明 https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419316505&token=&lang=zh_CN
